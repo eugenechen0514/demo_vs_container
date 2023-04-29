@@ -15,7 +15,7 @@
 ### ***Dockerfile*** 可以設定開發環境的套件
 預設
 
-```
+```dockerfile
 # Install common packages
 RUN apt-get update
 RUN apt-get install -y git curl wget telnet vim
