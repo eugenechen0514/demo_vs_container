@@ -3,6 +3,11 @@
 基於 [javascript-node](https://github.com/devcontainers/templates/tree/main/src/javascript-node)
 自行設定 docker-compose.yml 和 Dockerfile
 
+## 預先要求
+* [docker desktop](https://www.docker.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+        * [Extension- Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
 
 ## 設定
 
