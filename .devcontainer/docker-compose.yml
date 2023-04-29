@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  devcontainer:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # node version ex: 20 / 18
+        # 完整清單見: https://mcr.microsoft.com/v2/vscode/devcontainers/javascript-node/tags/list
+        VARIANT: "20"
+    volumes:
+      - ../..:/workspaces:cached      
+    network_mode: host
+    command: sleep infinity
