@@ -13,9 +13,9 @@
 
 ### ***.devcontainer/docker-compose.yml*** 參數
 
-| Arg     | 說明                       | 細節                                                                                 |
-| ------- | ------------------------ | ---------------------------------------------------------------------------------- |
-| VARIANT | node version ex: 20 / 18 | 完整清單見: https://mcr.microsoft.com/v2/vscode/devcontainers/javascript-node/tags/list |
+| Arg       | 說明                       | 細節                                                                                 |
+| --------- | ------------------------ | ---------------------------------------------------------------------------------- |
+| `VARIANT` | node version ex: 20 / 18 | 完整清單見: https://mcr.microsoft.com/v2/vscode/devcontainers/javascript-node/tags/list |
 
 ### ***Dockerfile*** 可以設定開發環境的套件
 預設
